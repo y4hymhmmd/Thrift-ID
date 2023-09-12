@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "id": "tailwindcss -i src/input.css -o dist/output.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  },
+  "dependencies": {
+    "aos": "^2.3.4",
+    "jquery": "^3.7.0",
+    "swiper": "^9.4.1"
+  }
+}
