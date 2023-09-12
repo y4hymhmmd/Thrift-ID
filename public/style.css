@@ -266,8 +266,7 @@ figure:hover figcaption {
 
 .loader {
     position: absolute;
-    font-size: 12vw;
-    font-family: "Monument", "sans-serif";
+    font-size: 12vw;    
     font-weight: 800;
     color: transparent;
     -webkit-text-stroke: 0.1vw #333333;

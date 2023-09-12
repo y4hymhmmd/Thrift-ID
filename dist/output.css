@@ -1,5 +1,5 @@
 /*
-! tailwindcss v3.3.2 | MIT License | https://tailwindcss.com
+! tailwindcss v3.3.3 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -191,6 +191,10 @@ select,
 textarea {
   font-family: inherit;
   /* 1 */
+  font-feature-settings: inherit;
+  /* 1 */
+  font-variation-settings: inherit;
+  /* 1 */
   font-size: 100%;
   /* 1 */
   font-weight: inherit;
@@ -338,6 +342,14 @@ ul,
 menu {
   list-style: none;
   margin: 0;
+  padding: 0;
+}
+
+/*
+Reset default styling for dialogs.
+*/
+
+dialog {
   padding: 0;
 }
 
@@ -1013,26 +1025,6 @@ video {
   height: max-content;
 }
 
-.h-\[520px\] {
-  height: 520px;
-}
-
-.h-\[588x\] {
-  height: 588x;
-}
-
-.h-\[88px\] {
-  height: 88px;
-}
-
-.h-\[550x\] {
-  height: 550x;
-}
-
-.h-\[540x\] {
-  height: 540x;
-}
-
 .w-10 {
   width: 2.5rem;
 }
@@ -1043,10 +1035,6 @@ video {
 
 .w-14 {
   width: 3.5rem;
-}
-
-.w-16 {
-  width: 4rem;
 }
 
 .w-20 {
@@ -1229,18 +1217,6 @@ video {
   width: 100%;
 }
 
-.w-\[520px\] {
-  width: 520px;
-}
-
-.w-\[490px\] {
-  width: 490px;
-}
-
-.w-\[190px\] {
-  width: 190px;
-}
-
 .max-w-\[800px\] {
   max-width: 800px;
 }
@@ -1421,14 +1397,6 @@ video {
 
 .rounded-xl {
   border-radius: 0.75rem;
-}
-
-.rounded-\[10px\] {
-  border-radius: 10px;
-}
-
-.rounded-\[50px\] {
-  border-radius: 50px;
 }
 
 .rounded-b-lg {
@@ -2608,10 +2576,6 @@ video {
     height: 820px;
   }
 
-  .md\:h-\[88px\] {
-    height: 88px;
-  }
-
   .md\:h-auto {
     height: auto;
   }
@@ -2750,14 +2714,6 @@ video {
 
   .md\:w-\[850px\] {
     width: 850px;
-  }
-
-  .md\:w-\[88px\] {
-    width: 88px;
-  }
-
-  .md\:w-\[90\%\] {
-    width: 90%;
   }
 
   .md\:w-\[910px\] {
